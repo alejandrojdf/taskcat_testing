@@ -1,0 +1,21 @@
+-----------------------------------------------------------------------------
+Region: eu-west-2
+StackName: tCaT-my-cfn-project-default-392a5e38e4834483ae9df245c839e6fe
+*****************************************************************************
+ResourceStatusReason:  
+Stack launch was successful
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                             ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ------------------------------------------------------------  ---------------------------
+2021-01-13 13:19:51.008000+00:00  CREATE_COMPLETE     AWS::CloudFormation::Stack  tCaT-my-cfn-project-default-392a5e38e4834483ae9df245c839e6fe
+2021-01-13 13:19:49.754000+00:00  CREATE_COMPLETE     AWS::S3::Bucket             S3Bucket
+2021-01-13 13:19:28.448000+00:00  CREATE_IN_PROGRESS  AWS::S3::Bucket             S3Bucket                                                      Resource creation Initiated
+2021-01-13 13:19:27.416000+00:00  CREATE_IN_PROGRESS  AWS::S3::Bucket             S3Bucket
+2021-01-13 13:19:24.746000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-my-cfn-project-default-392a5e38e4834483ae9df245c839e6fe  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Wednesday, 13. January 2021 01:20PM
+-----------------------------------------------------------------------------
+

@@ -1,0 +1,20 @@
+-----------------------------------------------------------------------------
+Region: eu-west-2
+StackName: tCaT-my-cfn-project-default-f002127c1ead43c6838b507038484d53
+*****************************************************************************
+ResourceStatusReason:  
+The following resource(s) failed to create: [S3Bucket].
+*****************************************************************************
+*****************************************************************************
+Events:  
+TimeStamp                         ResourceStatus      ResourceType                LogicalResourceId                                             ResourceStatusReason
+--------------------------------  ------------------  --------------------------  ------------------------------------------------------------  -------------------------------------------------------
+2021-01-13 13:07:27.839000+00:00  CREATE_FAILED       AWS::CloudFormation::Stack  tCaT-my-cfn-project-default-f002127c1ead43c6838b507038484d53  The following resource(s) failed to create: [S3Bucket].
+2021-01-13 13:07:27.272000+00:00  CREATE_FAILED       AWS::S3::Bucket             S3Bucket                                                      mytestbucket already exists
+2021-01-13 13:07:26.769000+00:00  CREATE_IN_PROGRESS  AWS::S3::Bucket             S3Bucket
+2021-01-13 13:07:23.527000+00:00  CREATE_IN_PROGRESS  AWS::CloudFormation::Stack  tCaT-my-cfn-project-default-f002127c1ead43c6838b507038484d53  User Initiated
+*****************************************************************************
+-----------------------------------------------------------------------------
+Tested on: Wednesday, 13. January 2021 01:08PM
+-----------------------------------------------------------------------------
+
